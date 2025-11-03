@@ -7,7 +7,6 @@ pada hasil praktikum 1 yaitu bmembuat aplikasi pengambilan foto / input gambar
 
 pada hasil praktikum 2 yaitu Membuat filter carousel dengan menampilkan filter-filter yang bisa dipilih.
 ### Tugas Praktikum 
-1. 
 2. 
 3. `void async`: fungsi asynchronous tanpa return value.
 4.   - `@immutable`: semua property final, objek tidak berubah.   
