@@ -58,3 +58,7 @@
 
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 6".
 ![alt text](img/S6.gif)
+
+### Soal 7
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 7".
+![alt text](img/S7.gif)
