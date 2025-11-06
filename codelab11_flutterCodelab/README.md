@@ -62,3 +62,17 @@
 ### Soal 7
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 7".
 ![alt text](img/S7.gif)
+
+### Soal 8
+* Jelaskan maksud perbedaan kode langkah 1 dan 4!
+    - Langkah 1
+        FutureGroup menambahkan beberapa Future satu per satu lalu menutupnya dengan close().
+    - Langkah 4
+        Future.wait langsung menjalankan semua Future dalam satu list sekaligus, lebih sederhana.
+
+### Soal 9
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 9".
+![alt text](img/S9.gif)
+
+### Soal 10
+* Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
