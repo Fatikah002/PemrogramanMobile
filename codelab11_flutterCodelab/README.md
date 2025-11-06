@@ -1,4 +1,8 @@
 
+## **Nama  : Fatikah Salsabilla**
+## **No absen   : 14**
+## **Kelas  : 3H / TI**
+
 ### Soal 1
 * Tambahkan nama panggilan Anda pada **title** app sebagai identitas hasil pekerjaan Anda.
     ```dart
@@ -25,7 +29,6 @@
     ```
 
 ### Soal 3
-
 * Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
     - **substring**, digunakan untuk Membatasi teks hasil API agar tidak lebih dari 450 karakter dan mencegah error.
     - **catchError**, digunakan untuk Menangani error jika proses **getData()** gagal (misalnya jaringan bermasalah).
@@ -91,3 +94,36 @@
     - Di browser, lokasi GPS tidak asli karena hanya menampilkan koordinat default Google (37.4219983, -122.084), bukan lokasi sebenarnya.
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 12".
 ![alt text](img/S12.gif)
+
+### Soal 13
+* Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+    - Tampilan pada Praktikum 7 animasi loading nya tidak patah - patah, tidak ngelag
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 13".
+![alt text](img/S13.gif)
+* Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
+
+### Soal 14
+* Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+    - Tidak da perbedaan yang terlihat
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".
+![alt text](img/S14.gif)
+
+### Soal 15
+* Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+* Silakan ganti dengan warna tema favorit Anda.
+
+### Soal 16
+![alt text](img/S16.gif)
+* Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+    - Tombol “Change Color” di NavigationFirst membuka NavigationSecond. Kemudian  memilih Red/Green/Blue mengirim warna balik lalu background layar pertama berubah sesuai pilihan, sedangkan jika kembali tanpa memilih, jatuh ke warna cadangan Colors.blue.
+* Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+![alt text](img/S16-2.gif)
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 16".
+
+### Soal 17
+![alt text](img/S17.gif)
+* Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+    - Menekan “Change Color” menampilkan dialog yang tidak bisa ditutup, saat memilih Navy/Tosca/Pink, dialog memanggil Navigator.pop dengan warna tersebut, showDialog mengembalikan nilai, lalu setState mengubah background Scaffold ke warna pilihan; jika menutup dialog dengan tombol back (tanpa memilih), hasilnya null sehingga warna tidak berubah.
+* Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+![alt text](img/S17-2.gif)
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 17".
