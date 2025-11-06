@@ -48,3 +48,13 @@
     - Fungsi getNumber() membuat Completer, memanggil calculate(), lalu mengembalikan Future-nya.Setelah 5 detik di calculate(), completer.complete(42) menandakan Future selesai dan menghasilkan nilai 42.
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 5".
 ![alt text](img/S5.gif)
+
+### Soal 6
+* Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+    - Langkah 2 
+        Future selalu sukses, tidak ada penanganan error.
+    - Langkah 5-6
+        Menambahkan try–catch untuk menangani error dan memanggil completeError().Tampilkan nilai jika sukses, atau pesan error jika gagal.
+
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 6".
+![alt text](img/S6.gif)
