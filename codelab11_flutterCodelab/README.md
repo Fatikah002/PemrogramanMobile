@@ -76,3 +76,18 @@
 
 ### Soal 10
 * Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+![alt text](img/S10.gif)
+    - Langkah 1
+        returnError hanya membuat fungsi async yang melempar error tanpa menanganinya.
+    - Langkah 2
+        handleError menambahkan blok try–catch–finally untuk menangkap error dari returnError,
+
+### Soal 11
+* Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+### Soal 12
+* Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+* Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+    - Di browser, lokasi GPS tidak asli karena hanya menampilkan koordinat default Google (37.4219983, -122.084), bukan lokasi sebenarnya.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 12".
+![alt text](img/S12.gif)
