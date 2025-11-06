@@ -39,6 +39,12 @@
         Mendefinisikan tiga fungsi asynchronous (returnOneAsync, returnTwoAsync, returnThreeAsync) yang masing-masing menunggu 3 detik sebelum mengembalikan nilai 1, 2, dan 3 — digunakan untuk mensimulasikan proses yang butuh waktu
     - Langkah 2
         Fungsi count() memanggil ketiga fungsi tersebut secara berurutan dengan await, menjumlahkan hasilnya, lalu menggunakan setState() untuk menampilkan total ke UI.
-        
+
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 4".
     - ![alt text](img/S4.gif)
+
+### Soal 5
+* Jelaskan maksud kode langkah 2 tersebut!
+    - Fungsi getNumber() membuat Completer, memanggil calculate(), lalu mengembalikan Future-nya.Setelah 5 detik di calculate(), completer.complete(42) menandakan Future selesai dan menghasilkan nilai 42.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 5".
+![alt text](img/S5.gif)
