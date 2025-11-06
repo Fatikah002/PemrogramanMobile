@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-Future<http.Response> getData() async {
-  const authority = 'www.googleapis.com';
-  const path = '/books/v1/volumes/WwPHEAAAQBAJ';
-  final url = Uri.https(authority, path);
-  return await http.get(url);
-}
-
 void main() {
   runApp(const MyApp());
 }
@@ -41,36 +34,47 @@ class _FuturePageState extends State<FuturePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Back from the Future Fatikah'),
-      ),
+      appBar: AppBar(title: const Text('Back from the Future Fatikah')),
       body: Center(
-        child: Column(children: [
-          const Spacer(),
-          ElevatedButton(
-            child: const Text('GO!'),
-            onPressed: () {
-              setState(() {});
-              getData().then((value) {
-                setState(() {
-                  result = value.body
-                      .toString()
-                      .substring(0, value.body.length.clamp(0, 450));
-                });
-              }).catchError((_) {
-                setState(() {
-                  result = 'An error occurred';
-                });
-              });
-            },
-          ),
-          const Spacer(),
-          Text(result),
-          const Spacer(),
-          const CircularProgressIndicator(),
-          const Spacer(),
-        ]),
+        child: Column(
+          children: [
+            const Spacer(),
+            ElevatedButton(
+              child: const Text('GO!'),
+              onPressed: () {
+                setState(() {});
+                getData()
+                    .then((value) {
+                      setState(() {
+                        result = value.body.toString().substring(
+                          0,
+                          value.body.length.clamp(0, 450),
+                        );
+                      });
+                    })
+                    .catchError((_) {
+                      setState(() {
+                        result = 'An error occurred';
+                      });
+                    });
+              },
+            ),
+            const Spacer(),
+            Text(result),
+            const Spacer(),
+            const CircularProgressIndicator(),
+            const Spacer(),
+          ],
+        ),
       ),
     );
   }
+
+  Future<http.Response> getData() async {
+    const authority = 'www.googleapis.com';
+    const path = '/books/v1/volumes/WwPHEAAAQBAJ';
+    final url = Uri.https(authority, path);
+    return await http.get(url);
+  }
+
 }
