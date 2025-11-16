@@ -66,3 +66,14 @@
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![alt text](img/S8.gif)
 * Lalu lakukan commit dengan pesan "W12: Jawaban Soal 8".
+
+## Soal 9
+* Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+    * Langkah 2 = Mempersiapkan stream dan memproses data yang masuk sebelum ditampilkan ke UI.
+    * Langkah 6 = Menghentikan stream saat halaman tidak digunakan lagi.
+    * Langkah 8 = Mengirim angka acak ke stream saat tombol ditekan agar tampil di layar.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![alt text](img/image.png)
+
+![alt text](img/S9.gif)
+* Lalu lakukan commit dengan pesan "W12: Jawaban Soal 9".
