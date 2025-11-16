@@ -49,3 +49,11 @@
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![alt text](img/S6.gif)
 * Lalu lakukan commit dengan pesan "W12: Jawaban Soal 6".
+
+## Soal 7
+* Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+    * Langkah 13 untuk mengirim error ke dalam stream.
+    * Langkah 14 untuk penanganan jika stream menerima error.
+    * Langkah 15 untuk fungsi yang sebelumnya mengirim angka acak sekarang diganti untuk memicu error dengan memanggil fungsi addError()
+* Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+* Lalu lakukan commit dengan pesan "W12: Jawaban Soal 7".
