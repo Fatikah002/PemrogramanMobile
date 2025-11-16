@@ -57,3 +57,12 @@
     * Langkah 15 untuk fungsi yang sebelumnya mengirim angka acak sekarang diganti untuk memicu error dengan memanggil fungsi addError()
 * Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
 * Lalu lakukan commit dengan pesan "W12: Jawaban Soal 7".
+
+## Soal 8
+* Jelaskan maksud kode langkah 1-3 tersebut!
+    * Langkah 1 = Membuat variabel transformer
+    * Langkah 2 = Mengatur bagaimana data dan error di stream diubah (data dikali 10, error jadi -1).
+    * Langkah 3 = Menghubungkan stream dengan transformer agar datanya bisa diproses terlebih dahulu, lalu hasilnya digunakan untuk mengubah UI sesuai nilai yang sudah diolah.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![alt text](img/S8.gif)
+* Lalu lakukan commit dengan pesan "W12: Jawaban Soal 8".
