@@ -97,3 +97,10 @@
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![alt text](img/S12.gif)
 * Lalu lakukan commit dengan pesan "W12: Jawaban Soal 12".
+
+## Soal 13
+* Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
+    * Pada kode program tersebut, konsep BLoC ada pada pemisahan logika di RandomNumberBloc dan tampilan yang hanya menerima data melalui StreamBuilder.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![alt text](img/S13.gif)
+* Lalu lakukan commit dengan pesan "W12: Jawaban Soal 13".
