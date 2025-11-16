@@ -77,3 +77,15 @@
 
 ![alt text](img/S9.gif)
 * Lalu lakukan commit dengan pesan "W12: Jawaban Soal 9".
+
+## Soal 10
+* Jelaskan mengapa error itu bisa terjadi ?
+    * Error terjadi karena stream hanya bisa dibaca sekali, tapi program mencoba membaca dua kali.
+    ![alt text](img/image2.png)
+
+## Soal 11
+* Jelaskan mengapa hal itu bisa terjadi ?
+    * Stream biasa cuma bisa dipakai satu listener, jadi kalau ditambah listener lagi muncul error.Saat diubah jadi broadcast, stream bisa dipakai banyak listener sekaligus, dan setiap data baru dikirim ke semuanya.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![alt text](img/S11.gif)
+* Lalu lakukan commit dengan pesan "W12: Jawaban Soal 10,11".
