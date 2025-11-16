@@ -89,3 +89,11 @@
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![alt text](img/S11.gif)
 * Lalu lakukan commit dengan pesan "W12: Jawaban Soal 10,11".
+
+## Soal 12
+* Jelaskan maksud kode pada langkah 3 dan 7 !
+    * Langkah 3:Membuat stream yang otomatis mengirim angka acak setiap 1 detik.
+    * Langkah 7: Menampilkan angka yang dikirim stream ke UI menggunakan StreamBuilder, jadi tampilan akan berubah setiap kali stream mengirim data baru.
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![alt text](img/S12.gif)
+* Lalu lakukan commit dengan pesan "W12: Jawaban Soal 12".
