@@ -11,3 +11,14 @@
     ```
 * Gantilah warna tema aplikasi sesuai kesukaan Anda.
 * Lakukan commit hasil jawaban Soal 1 dengan pesan "W12: Jawaban Soal 1"
+
+## Soal 2
+* Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
+    ```dart
+    Colors.indigo,
+    Colors.cyan,
+    Colors.lime,
+    Colors.pink,
+    Colors.orange,
+    ```
+* Lakukan commit hasil jawaban Soal 2 dengan pesan "W12: Jawaban Soal 2"
