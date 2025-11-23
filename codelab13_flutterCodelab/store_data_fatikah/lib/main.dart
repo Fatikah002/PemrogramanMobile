@@ -54,7 +54,13 @@ class _MyHomePageState extends State<MyHomePage> {
     for (var item in pizzaMapList) {
       myPizzas.add(Pizza.fromJson(item as Map<String, dynamic>));
     }
+    String json = convertToJSON(myPizzas);
+    print(json);
     return myPizzas;
+  }
+
+  String convertToJSON(List<Pizza> pizzas) {
+    return jsonEncode(pizzas.map((pizza) => jsonEncode(pizza)).toList());
   }
 
   @override

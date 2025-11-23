@@ -5,6 +5,7 @@
 ## Soal 3
 ![alt text](img/image2.png)
 ## Soal 4
+![alt text](img/image3.png)
 ## Soal 5
 ## Soal 6
 ## Soal 7
