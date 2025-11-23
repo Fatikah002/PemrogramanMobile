@@ -3,6 +3,7 @@
 ## Soal 2
 ![alt text](img/image.png)
 ## Soal 3
+![alt text](img/image2.png)
 ## Soal 4
 ## Soal 5
 ## Soal 6
