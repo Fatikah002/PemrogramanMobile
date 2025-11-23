@@ -20,3 +20,4 @@
 * writeFile()	Menulis / menyimpan data ke file
 * readFile()	Membaca isi file dan menampilkannya ke layar
 ## Soal 9
+![alt text](img/S9.gif)
