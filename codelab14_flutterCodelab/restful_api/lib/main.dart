@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'httphelper.dart';
 import 'model/pizza.dart';
+import 'model/pizza_detail.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,6 +41,15 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.add),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const PizzaDetailScreen()),
+          );
+        },
+      ),
       appBar: AppBar(title: const Text('JSON Fatikah Salsabilla')),
       body: FutureBuilder(
         future: callPizzas(),
