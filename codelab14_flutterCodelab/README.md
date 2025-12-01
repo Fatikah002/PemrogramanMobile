@@ -61,4 +61,7 @@
 
 ![alt text](img/S3.gif)
 ![alt text](img/S3_wm.png)
+
 ### Soal 4
+
+![alt text](img/S4.gif)
