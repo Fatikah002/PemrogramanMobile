@@ -50,7 +50,7 @@
   }] 
     ```
  - Wiremock
- 
+
 ![alt text](img/S2.png)
 
 - **Hasil**
@@ -58,4 +58,6 @@
 ![alt text](img/S2_tugas.gif)
 
 ### Soal 3
+
+![alt text](img/S3.gif)
 ### Soal 4
